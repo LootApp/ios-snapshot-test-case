@@ -2,8 +2,8 @@ fastlane_version "1.66.0"
 default_platform :ios
 
 SLACK_URL = "https://hooks.slack.com/services/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".freeze
-FRAMEWORK_NAME = "EasyPeasy".freeze
-REPOSITORY_NAME = "EasyPeasy".freeze
+FRAMEWORK_NAME = "FBSnapshotTestCase".freeze
+REPOSITORY_NAME = "ios-snapshot-test-case".freeze
 
 platform :ios do
     desc "Release new version"
